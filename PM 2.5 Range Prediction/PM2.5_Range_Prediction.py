@@ -1,14 +1,3 @@
-#In this final project, I choose the data from  UCL Machine Learning Repository, named PRSA_data_2010.1.1-2014.12.31
-#I first Load the CSV file in to the python, after I roughly look through this CSV file, I found there are many unuseful
-#features that I need to delete, and also for the target pm 2.5, there are a lot NA value row that I need to delete
-#I clean the data first, and then, I load the data with different range of pm 2.5 values. In each group, I divde them
-#in to two targets, and then I used Logistic Regression machine learning method to train the data set. I used the
-#same method as we talked in the lecture to train the data set.
-#And then, I used the ROC method to find the accuracy of Logistic Regression by find the area
-#under the ROC curve, and I draw the ROC curve, and then repeat the steps four times.
-
-
-
 import numpy as np
 import csv
 from sklearn.model_selection import train_test_split
